@@ -15,8 +15,6 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.Toast;
 
-
-
 public class MainActivity extends AppCompatActivity {
 
     /**
@@ -47,7 +45,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        Toast.makeText(getApplicationContext(), "Fuck", Toast.LENGTH_LONG).show();
+//        Toast.makeText(getApplicationContext(), "Fuck", Toast.LENGTH_LONG).show();
         requestPhoneStatePermission();
         requestContactsPermission();
 
